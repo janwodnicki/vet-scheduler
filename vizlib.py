@@ -4,9 +4,10 @@ import numpy as np
 
 COLORS = ['steelblue', 'peru', 'red', 'limegreen', 'yellow', 'blue', 'darkgreen', 'orange', 'magenta']
 
+# Default use for gurobi
 def viz_schedule(avail, b, n):
-    n_filter = n.X.astype(bool)
-    b_filter = b.X.astype(bool)
+    n_filter = n.astype(bool)
+    b_filter = b.astype(bool)
     a_filter = ~avail.astype(bool)
 
     def color_col(df):

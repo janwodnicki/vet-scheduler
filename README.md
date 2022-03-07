@@ -5,8 +5,8 @@
 # v2: General implementation with CVXPY
 CBC performs the best of free solvers but 5-10x slower than v1 or 3-5x slower than v2 CBC
 
-CBC:
+CBC:\n
 <img src="./doc/ex1_cbc_solution.png" alt="gurobi" width="200"/>
 
-GUROBI:
+GUROBI:\n
 <img src="./doc/ex1_gurobi_solution.png" alt="gurobi" width="200"/>
